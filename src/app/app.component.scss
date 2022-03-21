@@ -1,0 +1,106 @@
+.clr1 {
+  background-color: red;
+}
+
+.clr2 {
+  background-color: green;
+}
+
+.clr3 {
+  background-color: orange;
+}
+
+.clr4 {
+  background-color: yellow;
+}
+
+.clr5 {
+  background-color: blue;
+}
+
+.clr6 {
+  background-color: pink;
+}
+
+.clr7 {
+  background-color: purple;
+}
+
+.clr8 {
+  background-color: cyan;
+}
+
+.clr9 {
+  background-color: black;
+}
+
+.clr10 {
+  background-color: brown;
+}
+
+.clr11 {
+  background-color: gold;
+}
+
+.clr12 {
+  background-color: violet;
+}
+
+.brd1 {
+  border: 5px red solid;
+}
+
+.brd2 {
+  border: 5px green solid;
+}
+
+.brd3 {
+  border: 5px orange solid;
+}
+
+.brd4 {
+  border: 5px yellow solid;
+}
+
+.brd5 {
+  border: 5px blue solid;
+}
+
+.brd6 {
+  border: 5px pink solid;
+}
+
+.brd7 {
+  border: 5px purple solid;
+}
+
+.brd8 {
+  border: 5px cyan solid;
+}
+
+.brd9 {
+  border: 5px black solid;
+}
+
+.brd10 {
+  border: 5px brown solid;
+}
+
+.brd11 {
+  border: 5px gold solid;
+}
+
+.brd12 {
+  border: 5px violet solid;
+}
+
+// if a white border appears in all the components that you add to the page 
+//make sure you have this code in src/styles.scss
+//(this file the global file of styles for the entire project)
+
+body {
+  border: none !important;
+  margin: 0px !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}

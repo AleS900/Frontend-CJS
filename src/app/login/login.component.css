@@ -1,0 +1,133 @@
+body {
+  border: none !important;
+  margin: 0px !important;
+  padding: 0 !important;
+  background-color: #160b2c;
+  align-self: center;
+  width: 100vmax;
+  height: 100vmax;
+ 
+
+}
+
+.green-square {
+  background-color: #19dbbf;
+  border-radius: 43px;
+  margin-top: -20px;
+  width: 400px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 145px;
+}
+
+.title-image {
+  width: 250px;
+  padding-top: 55px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crown-png {
+  width: 215px;
+  height: 133px;
+  display: block;
+  padding-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-title {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 25px;
+  line-height: 15x;
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.welcome-text {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 15px;
+  width: 251px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.email-textBox {
+  background-color: #ffffff;
+  border: 1px solid #8492a6;
+  border-radius: 5px;
+  width: 285px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.password-textBox {
+  background-color: #ffffff;
+  border: 1px solid #8492a6;
+  border-radius: 5px;
+  width: 280px;
+  height: 53px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textbox-text {
+  color: #8190a5;
+  font-family: Lato;
+  font-size: 15px;
+  width: 250px;
+  height: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.forgot-password-bttn {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: italic;
+  width: 192px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.continue-bttn {
+  background-color: #160b2c;
+  border-radius: 30px;
+  width: 282px;
+  height: 58px;
+}
+
+.bttn-txt {
+  color: #74b3ce;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bolder;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
