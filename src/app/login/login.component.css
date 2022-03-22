@@ -13,7 +13,7 @@ body {
 .green-square {
   background-color: #19dbbf;
   border-radius: 43px;
-  margin-top: -20px;
+  margin-top: -100px;
   width: 400px;
   height: 500px;
   display: block;
@@ -23,6 +23,7 @@ body {
 }
 
 .title-image {
+  margin-top: -50px;
   width: 250px;
   padding-top: 55px;
   height: 50px;
@@ -41,6 +42,7 @@ body {
 }
 
 .login-title {
+  padding-top: 100px;
   color: #160b2c;
   font-family: Lato;
   font-size: 25px;
