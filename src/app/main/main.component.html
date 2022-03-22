@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+  <mat-toolbar>
+  <span>My Application</span>
+  </mat-toolbar>
+
+    <img
+      class="game-example"
+      src="https://raw.githubusercontent.com/AleS900/prueba/master/VSI/GameExample.png"
+      alt="image"
+    />
+
+    <div class="green-square">
+      <img
+        class="title-image"
+        src="https://raw.githubusercontent.com/AleS900/prueba/master/VSI/Raster.png"
+      />
+
+      <p class="login-title">Inicio de Sesión</p>
+      <p class="welcome-text">¡Bienvenido de Nuevo!</p>
+
+      <input
+        class="email-textBox textbox-text"
+        type="text"
+        placeholder="Nombre de Usuario o Correo"
+      />
+      <br />
+      <input
+        class="password-textBox textbox-text"
+        type="text"
+        placeholder="Contraseña"
+      />
+      <p class="forgot-password-bttn">¿Olvidó su Contraseña?</p>
+      <br />
+      <button
+        class="continue-bttn bttn-txt"
+        id="myButton"
+        (click)="test3($event)"
+      >
+        CONTINUAR</button
+      ><br /><br />
+    </div>
+  </body>
+</html>

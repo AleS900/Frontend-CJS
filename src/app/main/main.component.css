@@ -1,0 +1,23 @@
+.game-example {
+  opacity: 0.39;
+  height: 33vmax;
+  width: 100vmax;
+  align-self: center;
+  border: none !important;
+  margin: 0px !important;
+  padding: 0 !important;
+}
+
+.tool-bar{
+  width: 100vmax;
+  height: 50px;
+  align-self: center;
+  border: none !important;
+  margin: 0px !important;
+  padding: 0 !important;
+  background-color: #012A2D;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

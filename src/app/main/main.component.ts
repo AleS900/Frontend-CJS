@@ -10,13 +10,15 @@ import {
   OnDestroy,
   OnInit,
 } from '@angular/core';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @Component({
-  selector: 'login-comp',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
+  selector: 'main-comp, mat-toolbar-row,mat-toolbar',
+  exportAs:'matToolbarRow,matToolbar',
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.css'],
 })
-export class LoginComponent
+export class MainComponent
   implements
     OnInit,
     OnChanges,
