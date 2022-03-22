@@ -51,7 +51,7 @@
 .green-square {
   background-color: #012a2d;
   margin-top: -46px;
-  height: 66vmax;
+  height: 30vmax;
   width: 100vmax;
   display: block;
   margin-left: auto;
@@ -66,7 +66,20 @@
   align-self: center;
   position: absolute;
   display: block;
-  margin-left: 42.5vmax;
+  margin-left: 42.8vmax;
+  margin-right: auto;
+  z-index: 3;
+  opacity: 1;
+}
+
+.crown {
+  width: 120px;
+  height: 80px;
+  margin-top: 20px;
+  align-self: center;
+  position: absolute;
+  display: block;
+  margin-left: 46vmax;
   margin-right: auto;
   z-index: 3;
   opacity: 1;
@@ -76,6 +89,7 @@
   color: #19fedc;
   font-family: Lato;
   font-size: 40px;
+  padding-top: 100px;
   line-height: 70px;
   text-align: center;
   display: block;
@@ -98,6 +112,7 @@
 }
 
 .button-bckgd {
+  margin-top: 50px;
   background-color: #b1fe1a;
   border-radius: 26px;
   border: none;
@@ -117,6 +132,104 @@
   font-weight: bolder;
 }
 
-/*
-#0B3A3E
-*/
+
+.footer-bckgd {
+  background-color: #0B3A3E;
+  margin-top: -145px;
+  height: 20vmax;
+  width: 100vmax;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none !important;
+  margin-bottom: 0px !important;
+  padding: 0 !important;
+}
+
+#lista1 li {
+  display:inline;
+  padding-left:60px;
+  padding-right:3px;
+  font-family: Lato;
+  color: #19fedc;
+  font-weight: bold;
+}
+
+.separador {
+  color:gray;
+}
+
+.footer-title {
+  color: #19fedc;
+  font-family: Lato;
+  font-size: 27px;
+  line-height: 29px;
+  width: 811px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.email-textBox {
+  background-color: #ffffff;
+  border: 1px solid #8492a6;
+  border-radius: 5px;
+  width: 180px;
+  height: 54px;
+
+}
+
+.textbox-text {
+  color: #8190a5;
+  font-family: Lato;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.continue-bttn {
+  background-color: #19fedc;
+  border-radius: 30px;
+  width: 120px;
+  height: 45px;
+  border:none;
+}
+
+.bttn-txt {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bolder;
+
+}
+
+.facebook-icon {
+  width: 43px;
+  height: 43px;
+}
+
+.youtube-icon {
+  width: 43px;
+  height: 43px;
+}
+
+.google-icon {
+  width: 43px;
+  height: 43px;
+}
+
+.kronos-icon {
+  width: 200px;
+  height: 90px;
+}
+
+.divisor{
+  margin-left: 40vmax;
+}
+
