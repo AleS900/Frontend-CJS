@@ -1,4 +1,3 @@
-
 .game-example {
   opacity: 0.39;
   height: 33vmax;
@@ -9,25 +8,25 @@
   padding: 0 !important;
 }
 
-.tool-bar{
+.tool-bar {
   width: 100vmax;
   height: 50px;
   align-self: center;
   border: none !important;
   margin: 0px !important;
   padding: 0 !important;
-  background-color: #012A2D;
+  background-color: #012a2d;
 }
 
 .topnav {
-  background-color:#012A2D;
+  background-color: #012a2d;
   overflow: hidden;
   width: 100vmax;
 }
 
 .topnav a {
   float: left;
-  color: #9901E1;
+  color: #9901e1;
   text-align: center;
   font-family: Lato;
   font-weight: bolder;
@@ -42,16 +41,16 @@
 }
 
 .topnav a.active {
-  background-color:#19FEDC;
-  color: #012A2D;
+  background-color: #19fedc;
+  color: #012a2d;
   font-family: Lato;
-  
+
   font-weight: bolder;
 }
 
 .green-square {
-  background-color: #012A2D;
-  margin-top: -20px;
+  background-color: #012a2d;
+  margin-top: -46px;
   height: 66vmax;
   width: 100vmax;
   display: block;
@@ -60,21 +59,21 @@
   margin-bottom: 145px;
 }
 
-.green-title{
+.green-title {
   width: 180px;
   height: 36px;
   margin-top: 20px;
   align-self: center;
   position: absolute;
   display: block;
-  margin-left:42.5vmax;
+  margin-left: 42.5vmax;
   margin-right: auto;
   z-index: 3;
   opacity: 1;
 }
 
 .about-us {
-  color: #19FEDC;
+  color: #19fedc;
   font-family: Lato;
   font-size: 40px;
   line-height: 70px;
@@ -86,7 +85,7 @@
 }
 
 .description {
-  color: #B1FE1A;
+  color: #b1fe1a;
   font-family: Lato;
   font-size: 20px;
   line-height: 29px;
@@ -99,8 +98,9 @@
 }
 
 .button-bckgd {
-  background-color: #B1FE1A;
+  background-color: #b1fe1a;
   border-radius: 26px;
+  border: none;
   width: 532px;
   height: 50px;
   display: block;
@@ -109,10 +109,14 @@
 }
 
 .button-txt {
-  color: #160B2C;
+  color: #160b2c;
   font-family: Lato;
   font-size: 15px;
   line-height: 45px;
   text-align: center;
   font-weight: bolder;
 }
+
+/*
+#0B3A3E
+*/
