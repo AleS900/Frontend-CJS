@@ -16,7 +16,7 @@ import { RegisterComponent } from './register/register.component';
 import { MainComponent } from './main/main.component';
 import { NewsComponent } from './news/news.component';
 import { ReviewComponent } from './review/review.component';
-
+import { SuggestionComponent } from './suggestions/suggestions.component';
 @NgModule({
   declarations: [
     // Aquí van los componenetes
@@ -29,6 +29,7 @@ import { ReviewComponent } from './review/review.component';
     MainComponent,
     NewsComponent,
     ReviewComponent,
+    SuggestionComponent,
     Directive1Directive,
     Directive2Directive,
   ],
