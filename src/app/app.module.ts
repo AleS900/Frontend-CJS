@@ -14,6 +14,7 @@ import { Test3Component } from './test3/test3.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { MainComponent } from './main/main.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MainComponent } from './main/main.component';
     LoginComponent,
     RegisterComponent,
     MainComponent,
+    NewsComponent,
     Directive1Directive,
     Directive2Directive,
   ],
