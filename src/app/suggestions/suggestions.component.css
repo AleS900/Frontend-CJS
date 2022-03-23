@@ -51,7 +51,7 @@
 .green-square {
   background-color: #012a2d;
   margin-top: 0px;
-  height: 120vmax;
+  height: 60vmax;
   width: 100vmax;
   display: block;
   margin-left: auto;
@@ -280,6 +280,17 @@
   margin-right: auto;
 }
 
+.background-3 {
+  background-color: #160B2C;
+  width: 1000px;
+  height: 22vmax;
+  display: block;
+  margin-top:-5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .news-example {
   display: block;
   width: 850px;
@@ -454,3 +465,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.yt-sugg{
+  display: inline;
+  width: 400px;
+  margin-left: 20px;
+  
+}
+
+
