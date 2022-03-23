@@ -6,8 +6,6 @@ body {
   align-self: center;
   width: 100vmax;
   height: 100vmax;
- 
-
 }
 
 .green-square {
@@ -36,7 +34,7 @@ body {
   width: 215px;
   height: 133px;
   display: block;
-  padding-top:30px;
+  padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,6 +65,19 @@ body {
   margin-right: auto;
   font-weight: bolder;
   padding-bottom: 20px;
+}
+
+.no-account-txt {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 10px;
+  width: 251px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
 }
 
 .email-textBox {
@@ -113,6 +124,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -10px;
 }
 
 .continue-bttn {
