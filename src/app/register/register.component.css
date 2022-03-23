@@ -15,7 +15,7 @@ body {
   border-radius: 43px;
   margin-top: -20px;
   width: 400px;
-  height: 680px;
+  height: 760px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -56,6 +56,20 @@ body {
 .welcome-text {
   color: #160b2c;
   font-family: Lato;
+  font-size:20px;
+  line-height: 15px;
+  width: 251px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.login-text {
+  color: #160b2c;
+  font-family: Lato;
   font-size: 15px;
   line-height: 15px;
   width: 251px;
@@ -64,7 +78,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-weight: bolder;
-  padding-bottom: 20px;
+
+}
+
+.login-two-text {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 15px;
+  margin-top:-10px;
+  width: 251px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+  padding-bottom: 10px;
+
 }
 
 .email-textBox {
