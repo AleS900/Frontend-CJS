@@ -1,0 +1,410 @@
+.game-example {
+  opacity: 0.39;
+  height: 33vmax;
+  width: 100vmax;
+  align-self: center;
+  border: none !important;
+  margin: 0px !important;
+  padding: 0 !important;
+}
+
+.tool-bar {
+  width: 100vmax;
+  height: 50px;
+  align-self: center;
+  border: none !important;
+  margin: 0px !important;
+  padding: 0 !important;
+  background-color: #012a2d;
+}
+
+.topnav {
+  background-color: #012a2d;
+  overflow: hidden;
+  width: 100vmax;
+}
+
+.topnav a {
+  float: left;
+  color: #9901e1;
+  text-align: center;
+  font-family: Lato;
+  font-weight: bolder;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #19fedc;
+  color: #012a2d;
+  font-family: Lato;
+
+  font-weight: bolder;
+}
+
+.green-square {
+  background-color: #012a2d;
+  margin-top: 0px;
+  height: 120vmax;
+  width: 100vmax;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 145px;
+}
+
+.green-title {
+  width: 180px;
+  height: 36px;
+  margin-top: 20px;
+  align-self: center;
+  position: absolute;
+  display: block;
+  margin-left: 42.8vmax;
+  margin-right: auto;
+  z-index: 3;
+  opacity: 1;
+}
+
+.crown {
+  width: 120px;
+  height: 80px;
+  margin-top: 20px;
+  align-self: center;
+  position: absolute;
+  display: block;
+  margin-left: 46vmax;
+  margin-right: auto;
+  z-index: 3;
+  opacity: 1;
+}
+
+.about-us {
+  color: #19fedc;
+  font-family: Lato;
+  font-size: 40px;
+  padding-top: 100px;
+  line-height: 70px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.description {
+  color: #b1fe1a;
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 70px;
+  width: 811px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.button-bckgd {
+  margin-top: 50px;
+  background-color: #b1fe1a;
+  border-radius: 26px;
+  border: none;
+  width: 532px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-txt {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.footer-bckgd {
+  background-color: #0b3a3e;
+  margin-top: -145px;
+  height: 20vmax;
+  width: 100vmax;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none !important;
+  margin-bottom: 0px !important;
+  padding: 0 !important;
+}
+
+#lista1 li {
+  display: inline;
+  padding-left: 60px;
+  padding-right: 3px;
+  font-family: Lato;
+  color: #19fedc;
+  font-weight: bold;
+}
+
+.separador {
+  color: gray;
+}
+
+.footer-title {
+  color: #19fedc;
+  font-family: Lato;
+  font-size: 27px;
+  line-height: 29px;
+  width: 811px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.email-textBox {
+  background-color: #ffffff;
+  border: 1px solid #8492a6;
+  border-radius: 5px;
+  width: 180px;
+  height: 54px;
+}
+
+.textbox-text {
+  color: #8190a5;
+  font-family: Lato;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.continue-bttn {
+  background-color: #19fedc;
+  border-radius: 30px;
+  width: 120px;
+  height: 45px;
+  border: none;
+}
+
+.bttn-txt {
+  color: #160b2c;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.facebook-icon {
+  width: 43px;
+  height: 43px;
+}
+
+.youtube-icon {
+  width: 43px;
+  height: 43px;
+}
+
+.google-icon {
+  width: 43px;
+  height: 43px;
+}
+
+.kronos-icon {
+  width: 200px;
+  height: 90px;
+}
+
+.divisor {
+  margin-left: 40vmax;
+}
+
+.left-arrow {
+  margin-top: 20px;
+  margin-left: 80px;
+  display: inline;
+  width: 35px;
+  height: 35px;
+}
+
+.right-arrow{
+  margin-top:-210px;
+  margin-left: 82vmax;
+  width: 35px;
+  height: 35px;
+  z-index: 3;
+}
+
+.before-news {
+  color: #B1FE1A;
+  font-family: Lato;
+  font-size: 20px;
+  vertical-align:middle;
+  margin-top: -40px;
+  margin-left: 125px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.after-news {
+  color: #B1FE1A;
+  font-family: Lato;
+  font-size: 20px;
+  vertical-align:middle;
+  margin-top: -44px;
+  margin-left: 83.5vmax;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.background-2 {
+  background-color: #160B2C;
+  width: 1000px;
+  height: 56vmax;
+  display: block;
+  margin-top:55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-example {
+  display: block;
+  width: 850px;
+  margin-top:-25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-description {
+  color: #19fedc;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 29px;
+  width: 811px;
+  text-align:justify;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.create-notice-square {
+  background-color: #160B2C;
+  width: 1000px;
+  height: 20vmax;
+  display: block;
+  margin-top:55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-comments {
+  color: #b1fe1a;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 70px;
+  width: 811px;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.password2-textBox {
+  background-color: #ffffff;
+  border: 1px solid #8492a6;
+  border-radius: 5px;
+  width: 280px;
+  height: 53px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textbox2-text {
+  color: #8190a5;
+  font-family: Lato;
+  font-size: 15px;
+  margin-top:-15px;
+  width: 850px;
+  height: 200px;
+  text-align: left;
+  vertical-align: text-top;
+  font-weight: bold;
+}
+
+.title-supscription {
+  color:#FFFFFF;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 70px;
+  width: 811px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.supscription-square {
+  background-color: black;
+  width: 800px;
+  height: 23vmax;
+  display: block;
+  margin-top:55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supscription {
+  margin-top:-30px;
+  height: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.star {
+  display: inline;
+  width: 50px;
+  height: 48px;
+}
+
+.star1 {
+  display: inline;
+  margin-left:725px;
+  width: 50px;
+  height: 48px;
+}
+
+.like {
+  display: inline;
+  width: 40px;
+  height: 40px;
+}
+
+.unlike {
+  display: inline;
+  width: 40px;
+  height: 40px;
+}
+
+.counter-like{
+  color:#7E55F3;
+}
+
+.counter-unlike{
+  color:#7E55F3;
+}

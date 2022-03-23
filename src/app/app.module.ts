@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { MainComponent } from './main/main.component';
 import { NewsComponent } from './news/news.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { NewsComponent } from './news/news.component';
     RegisterComponent,
     MainComponent,
     NewsComponent,
+    ReviewComponent,
     Directive1Directive,
     Directive2Directive,
   ],
